@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font style</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');
+
+         @font-face {
+            font-family: Tiny;
+            src: url(fontt/Tiny5Duo-Black.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+         }
+
+        h1 {
+            color:cadetblue;
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Bangers', sans-serif;
+        }
+
+        p {
+            color:darkgoldenrod;
+            text-align: center;
+            font-family: 'Permanent Marker', Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .font {
+            font-family:Tiny, Arial, Sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Hallo CSS</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis maiores consequuntur harum ea quas libero repudiandae veritatis. Quam voluptate molestias, temporibus officiis error molestiae recusandae, fugit magni consequatur nostrum facere.</p>
+    
+    <p class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste eius maxime vel. Reiciendis hic laudantium, consectetur labore nisi necessitatibus?</p>
+</body>
+</html>
