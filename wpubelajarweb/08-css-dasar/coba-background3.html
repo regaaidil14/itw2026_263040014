@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba background css</title>
+    <style>
+        body {
+            background-color: azure;
+            background-image: linear-gradient(40deg, red, orange, yellow, green, blue, darkblue, purple);
+            height: 100vh;
+        }
+
+        .kotak1 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            background-image: linear-gradient(to bottom, lightblue, blue);
+        }
+        .kotak2 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            background-image: conic-gradient(lightblue, red, green, yellow);
+        }
+        .kotak3 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            background-image: radial-gradient(lightblue, red);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+    <div class="kotak3"></div>
+</body>
+</html>
